@@ -1,0 +1,71 @@
+/*---------------
+      RESET 
+---------------*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*---------------
+      GENERAL 
+---------------*/
+
+body {
+  font-family: "Montserrat", serif;
+  font-size: 1.1rem;
+  color: #000;
+  background-color: #e6b1c3;
+  font-family: "Montserrat", serif;
+}
+
+.container {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.articleList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.25rem;
+  border: 2px solid #e693db;
+  border-radius: 0.125rem;
+  padding: 1.875rem;
+  background-image: url(../bg.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.article {
+  background-color: #e6bbc3bb;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  min-width: 50%;
+  text-align: center;
+  margin-bottom: 0.625rem;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e693db;
+}
+
+h2 .article-title {
+  font-size: 1.25rem;
+}
+
+.article button {
+  border: none;
+  background-color: white;
+  width: 10%;
+  cursor: pointer;
+}
+
+form input {
+  padding: 0.3125rem 0.4375rem;
+  margin-right: 0.25rem;
+}
+
+form button {
+  padding: 0.3125rem 0.4375rem;
+  border: 2px solid #e693db;
+  cursor: pointer;
+}
