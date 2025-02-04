@@ -41,7 +41,6 @@ body {
   background-color: #e6bbc3bb;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   min-width: 50%;
-  text-align: center;
   margin-bottom: 0.625rem;
   display: flex;
   justify-content: space-between;
@@ -50,6 +49,32 @@ body {
 
 h2 .article-title {
   font-size: 1.25rem;
+}
+
+.article-content {
+  background-image: url(/paperbj.jpg);
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
+  width: 50%;
+  font-style: oblique;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.article-author {
+  font-size: 0.875rem;
+  color: #ee4242;
+}
+
+.article-category {
+  color: #e693db;
+}
+.article-published {
+  margin: 0.3125rem;
+  background-color: #e693db;
+  border-radius: 0.3125rem;
+  padding: 5px;
 }
 
 .article button {
@@ -68,4 +93,23 @@ form button {
   padding: 0.3125rem 0.4375rem;
   border: 2px solid #e693db;
   cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 1.25rem;
+  border: 2px dashed #ee4242;
+  padding: 1.25rem;
+}
+form label {
+  text-align: center;
+}
+#content {
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+  font-size: inherit;
+  padding: 0.3125rem;
 }
