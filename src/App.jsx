@@ -12,23 +12,23 @@ export default function App() {
   const [articleList, setArticleList] = useState([
     {
       title: "Vita Fuorisede",
-      content: "",
-      author: "",
-      category: "",
+      content: "Contenuto numero 1",
+      author: "Palascino Christian",
+      category: "BackEnd",
       published: false,
     },
     {
       title: "Pixel & Codice",
-      content: "",
-      author: "",
-      category: "",
+      content: "Contenuto numero 2 molto più lungo",
+      author: "Christian Palascino",
+      category: "BackEnd",
       published: true,
     },
     {
       title: "Torino Walk",
-      content: "",
-      author: "",
-      category: "",
+      content: "Una passeggiata per quel di Torino",
+      author: "Francesco Palascino",
+      category: "UI/UX",
       published: false,
     },
   ]);
