@@ -13,7 +13,7 @@
 
 body {
   font-family: "Montserrat", serif;
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   color: #000;
   background-color: #e6b1c3;
   font-family: "Montserrat", serif;
@@ -74,12 +74,12 @@ h2 .article-title {
   margin: 0.3125rem;
   background-color: #e693db;
   border-radius: 0.3125rem;
-  padding: 5px;
+  padding: 0.5rem;
 }
 
 .article button {
   border: none;
-  background-color: white;
+  background-color: #f2f7fb;
   width: 10%;
   cursor: pointer;
 }
@@ -100,8 +100,11 @@ form {
   flex-direction: column;
   width: 50%;
   margin-top: 1.25rem;
-  border: 2px dashed #ee4242;
+  border: 2px solid #ee4242;
   padding: 1.25rem;
+  border-radius: 0.3125rem;
+
+  border-radius: 0.125rem;
 }
 form label {
   text-align: center;
